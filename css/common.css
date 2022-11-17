@@ -1,0 +1,156 @@
+.container {
+  max-width: 1366px;
+  /* max-width: 1440px; */
+  margin: 0 auto;
+}
+
+.color-w {
+  color: var(--white-color);
+}
+
+.color-l {
+  color: var(--light-color);
+}
+
+.color-b {
+  color: var(--black-color);
+}
+
+.color-p {
+  color: var(--pink-color);
+}
+
+.bg-l {
+  color: var(--light-color);
+}
+
+.bg-b {
+  color: var(--black-color);
+}
+
+.bg-p {
+  color: var(--pink-color);
+}
+
+.fnt-ar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.fnt-tl {
+  font-family: "Teko Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.fnt-tr {
+  font-family: "Teko Regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.fnt-tm {
+  font-family: "Teko Medium", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.fnt-tsb {
+  font-family: "Teko SemiBold", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.fnt-tb {
+  font-family: "Teko Bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.fnt-s14 {
+  font-size: 14px;
+}
+
+.fnt-s16 {
+  font-size: 16px;
+}
+
+.fnt-s17 {
+  font-size: 17px;
+}
+
+.fnt-s19 {
+  font-size: 19px;
+}
+
+.fnt-s26 {
+  font-size: 26px;
+}
+
+.fnt-s36 {
+  font-size: 36px;
+}
+
+.fnt-s55 {
+  font-size: 55px;
+}
+
+.fnt-s60 {
+  font-size: 60px;
+}
+
+.fnt-s106 {
+  font-size: 106px;
+}
+
+.fnt-s174 {
+  font-size: 174px;
+}
+
+.fnt-s176 {
+  font-size: 176px;
+}
+
+.fnt-s280 {
+  font-size: 280px;
+}
+
+.dsp-f {
+  display: flex;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.ai-fe {
+  align-items: flex-end;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-fe {
+  justify-content: flex-end;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+
+.dsp-fc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ls-28 {
+  letter-spacing: 0.28px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.lh-37 {
+  line-height: 37px;
+}

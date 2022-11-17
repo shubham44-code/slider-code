@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Teko Light";
+  src: url(/assets/fonts/Teko-Light.woff2);
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Teko Regular";
+  src: url(/assets/fonts/Teko-Regular.woff2);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Teko Medium";
+  src: url(/assets/fonts/Teko-Medium.woff2);
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Teko SemiBold";
+  src: url(/assets/fonts/Teko-SemiBold.woff2);
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Teko Bold";
+  src: url(/assets/fonts/Teko-Bold.woff2);
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --white-color: #ffffff;
+  --light-color: #edf0f2;
+  --black-color: #000000;
+  --pink-color: #e4003b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Teko Regular", Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--light-color);
+}
